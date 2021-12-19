@@ -1,0 +1,36 @@
+{
+	"data_sources": {
+      "api": {
+             "sensor":"https://api.localhost:8056/sensor",
+             " ontologies": "https://api.localhost:7200/ontology"
+             },
+      "mongoDB": {
+                   "username":"Abraham",
+                   "password":"encrypted_password",
+                   "host": ":localhost:27017"
+             },
+      
+     "csv": {
+
+        "OSH_measurements": " bathroom_brightness.csv",
+        "OSH_measurements": " Bathroom_humidity.csv",
+        "OSH_measurements": "bathroom_temperature.csv",
+        "OSH_measurements": "bedroom_brightness.csv",
+        "OSH_measurements": "bedroom_humidity.csv",
+        "OSH_measurements": "bedroom_temperature.csv",
+        "OSH_measurements":  "dining_humidity.csv",
+        "OSH_measurements":  "dining_temperaure.csv",
+        "OSH_measurements": "kitchen_brightness.csv",
+        "OSH_measurements":  "kitchen_humidity.csv",
+        "OSH_measurements":  "kitchen_temperature.csv",
+        "OSH_measurements":  "living_brightness.csv",
+        "OSH_measurements":  "living_temperature.csv",
+        "OSH_measurements":  "OSH_outdoortemperature.csv",
+         "OSH_measurements": "toilet_humiditontology.csv",
+         "OSH_measurements"  "toilet_humidity"
+           }           
+ 
+                            
+      }
+
+	}
